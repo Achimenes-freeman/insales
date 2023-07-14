@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./global.scss">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="wrapper">
+        <header class="header">
+            <nav class="header__nav">
+                <div class="container">
+                    <div class="header__nav--wrapper">
+                        <ul class="header__nav-list">
+                            <li class="header__nav-list--item">О нас</li>
+                            <li class="header__nav-list--item">Оплата и доставка</li>
+                            <li class="header__nav-list--item">Товары из Китая</li>
+                            <li class="header__nav-list--item">Статьи</li>
+                        </ul>
+                        <div class="header__nav-social">
+                            <div class="header__nav-social--link">
+                                <a class="header__nav-social--telegram" href="#">
+                                    <object class="header__nav-social--icon" data="./assets/icons/telegram.svg" type="image/svg+xml" alt="link to telegram"></object>
+                                </a>
+                            </div>
+                            <div class="header__nav-social--link">
+                                <a class="header__nav-social--whatsapp" href="#">
+                                    <object class="header__nav-social--icon" data="./assets/icons/whatsapp.svg" type="image/svg+xml" alt="link to whatsapp"></object>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="header__menu">
+                <div class="container">
+                    <div class="header__menu--wrapper">
+                        <button class="btn btn--header__menu" type="button">
+                            <ul class="burger">
+                                <li class="burger__line"></li>
+                                <li class="burger__line"></li>
+                                <li class="burger__line"></li>
+                            </ul>
+                            <span class="header__menu-btn--text">Каталог</span>
+                        </button>
+
+                        <div class="header__menu-search_panel">
+                            <input class="header__menu-search_panel--input" type="text" placeholder="Напишите что вы ищите...">
+                            <button class="btn btn--search">Найти</button>
+                        </div>
+
+                        <ul class="header__menu-list">
+                            <li class="header__menu-item">
+                                <img class="header__menu-item--icon"  src="./assets/icons/user.svg" alt="">
+                                <span class="header__menu-item--text">Войти</span>
+                            </li>
+                            <li class="header__menu-item">
+                                <img class="header__menu-item--icon"  src="./assets/icons/heart.svg" alt="">
+                                <span class="header__menu-item--text">Избранное</span>
+                            </li>
+                            <li class="header__menu-item">
+                                <img class="header__menu-item--icon"  src="./assets/icons/cart.svg" alt="">
+                                <span class="header__menu-item--text">Корзина</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+
+            <div class="news">
+                <div class="container"></div>
+            </div>
+
+        </main>
+
+        <footer class="footer">
+
+        </footer>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>

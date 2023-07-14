@@ -1,0 +1,27 @@
+.btn {
+  display: inline-block;
+  min-width: 176px;
+  height: 100%;
+  padding: 0 1.125em;
+
+  background: linear-gradient(120deg, #2a5cf6, #7191f4);
+  border: none;
+  border-radius: 60px;
+
+  font-family: $rubik;
+  font-size: 1rem;
+  font-weight: 500;
+  color: $white;
+
+  cursor: pointer;
+
+  transition: all 0.2s linear;
+
+  &:hover {
+    background: linear-gradient(120deg, #9e0caa, #242aff, #23fbe1);
+  }
+  &--search {
+    min-width: 82px;
+    background: transparent;
+  }
+}
