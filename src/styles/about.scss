@@ -1,4 +1,37 @@
 .about {
-  height: 600px;
-  background-color: #53b3e6;
+  padding-bottom: 50px;
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+  }
+
+  &__article {
+    flex-basis: 55%;
+    &-title {
+      margin-bottom: 24px;
+      font-size: 1.75rem;
+      font-weight: 600;
+    }
+
+    &-text {
+      font-size: 1.125rem;
+      line-height: 1.4;
+    }
+  }
+
+  &__picture {
+    flex-basis: 45%;
+
+    border-radius: 40px;
+    overflow: hidden;
+  }
+
+  &__image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 }
