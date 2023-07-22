@@ -11,83 +11,533 @@
 </head>
 <body>
 
-    <div class="wrapper">
-        <header class="header">
-            <nav class="header__nav">
-                <div class="container">
-                    <div class="header__nav--wrapper">
-                        <ul class="header__nav-list">
-                            <li class="header__nav-list--item">О нас</li>
-                            <li class="header__nav-list--item">Оплата и доставка</li>
-                            <li class="header__nav-list--item">Товары из Китая</li>
-                            <li class="header__nav-list--item">Статьи</li>
-                        </ul>
-                        <div class="header__nav-social">
-                            <div class="header__nav-social--link">
-                                <a class="header__nav-social--telegram" href="#">
-                                    <object class="header__nav-social--icon" data="./assets/icons/telegram.svg" type="image/svg+xml" alt="link to telegram"></object>
-                                </a>
-                            </div>
-                            <div class="header__nav-social--link">
-                                <a class="header__nav-social--whatsapp" href="#">
-                                    <object class="header__nav-social--icon" data="./assets/icons/whatsapp.svg" type="image/svg+xml" alt="link to whatsapp"></object>
-                                </a>
-                            </div>
+
+    <header class="header">
+        <nav class="header__nav">
+            <div class="container">
+                <div class="header__nav--wrapper">
+                    <ul class="header__nav-list">
+                        <li class="header__nav-list--item">О нас</li>
+                        <li class="header__nav-list--item">Оплата и доставка</li>
+                        <li class="header__nav-list--item">Товары из Китая</li>
+                        <li class="header__nav-list--item">Статьи</li>
+                    </ul>
+                    <div class="header__nav-social">
+                        <div class="header__nav-social--link">
+                            <a class="header__nav-social--telegram" href="#">
+                                <object class="header__nav-social--icon" data="./assets/icons/telegram.svg" type="image/svg+xml" alt="link to telegram"></object>
+                            </a>
+                        </div>
+                        <div class="header__nav-social--link">
+                            <a class="header__nav-social--whatsapp" href="#">
+                                <object class="header__nav-social--icon" data="./assets/icons/whatsapp.svg" type="image/svg+xml" alt="link to whatsapp"></object>
+                            </a>
                         </div>
                     </div>
                 </div>
-            </nav>
+            </div>
+        </nav>
 
-            <div class="header__menu">
-                <div class="container">
-                    <div class="header__menu--wrapper">
-                        <button class="btn btn--header__menu" type="button">
-                            <ul class="burger">
-                                <li class="burger__line"></li>
-                                <li class="burger__line"></li>
-                                <li class="burger__line"></li>
-                            </ul>
-                            <span class="header__menu-btn--text">Каталог</span>
-                        </button>
-
-                        <div class="header__menu-search_panel">
-                            <input class="header__menu-search_panel--input" type="text" placeholder="Напишите что вы ищите...">
-                            <button class="btn btn--search">Найти</button>
-                        </div>
-
-                        <ul class="header__menu-list">
-                            <li class="header__menu-item">
-                                <img class="header__menu-item--icon"  src="./assets/icons/user.svg" alt="">
-                                <span class="header__menu-item--text">Войти</span>
-                            </li>
-                            <li class="header__menu-item">
-                                <img class="header__menu-item--icon"  src="./assets/icons/heart.svg" alt="">
-                                <span class="header__menu-item--text">Избранное</span>
-                            </li>
-                            <li class="header__menu-item">
-                                <img class="header__menu-item--icon"  src="./assets/icons/cart.svg" alt="">
-                                <span class="header__menu-item--text">Корзина</span>
-                            </li>
+        <div class="header__menu">
+            <div class="container">
+                <div class="header__menu--wrapper">
+                    <button class="btn btn--header__menu" type="button">
+                        <ul class="burger">
+                            <li class="burger__line"></li>
+                            <li class="burger__line"></li>
+                            <li class="burger__line"></li>
                         </ul>
+                        <span class="header__menu-btn--text">Каталог</span>
+                    </button>
+
+                    <div class="header__menu-search_panel">
+                        <input class="header__menu-search_panel--input" type="text" placeholder="Напишите что вы ищите...">
+                        <button class="btn btn--search">Найти</button>
                     </div>
 
+                    <ul class="header__menu-list">
+                        <li class="header__menu-item">
+                            <img class="header__menu-item--icon"  src="./assets/icons/user.svg" alt="">
+                            <span class="header__menu-item--text">Войти</span>
+                        </li>
+                        <li class="header__menu-item">
+                            <img class="header__menu-item--icon"  src="./assets/icons/heart.svg" alt="">
+                            <span class="header__menu-item--text">Избранное</span>
+                        </li>
+                        <li class="header__menu-item">
+                            <img class="header__menu-item--icon"  src="./assets/icons/cart.svg" alt="">
+                            <span class="header__menu-item--text">Корзина</span>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+
+        <div class="banners">
+            <div class="container">
+                <div class="banners__inner">
+                    <ul class="banners__list">
+                        <li class="banners__list-item">
+                            <div class="banner">
+                                <div class="banner__content">
+                                    <h3 class="banner__content-title">Сезон подготовки к новогодним 
+                                        продажам открыт!</h3>
+                                    <ul class="banner__content-list">
+                                        <li class="banner__content-item">Искуственные елки</li>
+                                        <li class="banner__content-item">Гирлянды</li>
+                                        <li class="banner__content-item">Игрушки и украшения</li>
+                                        <li class="banner__content-item">Пиротехника</li>
+                                        <li class="banner__content-item">Новогодние подарки</li>
+                                    </ul>
+                                    <button class="btn btn--banner">Перейти к каталогу</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="banners__list-item">
+                            <div class="banner">
+                                <div class="banner__content">
+                                    <h3 class="banner__content-title">Сезон подготовки к новогодним 
+                                        продажам открыт!</h3>
+                                    <ul class="banner__content-list">
+                                        <li class="banner__content-item">Искуственные елки</li>
+                                        <li class="banner__content-item">Гирлянды</li>
+                                        <li class="banner__content-item">Игрушки и украшения</li>
+                                        <li class="banner__content-item">Пиротехника</li>
+                                        <li class="banner__content-item">Новогодние подарки</li>
+                                    </ul>
+                                    <button class="btn btn--banner">Перейти к каталогу</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="banners__list-item">
+                            <div class="banner">
+                                <div class="banner__content">
+                                    <h3 class="banner__content-title">Сезон подготовки к новогодним 
+                                        продажам открыт!</h3>
+                                    <ul class="banner__content-list">
+                                        <li class="banner__content-item">Искуственные елки</li>
+                                        <li class="banner__content-item">Гирлянды</li>
+                                        <li class="banner__content-item">Игрушки и украшения</li>
+                                        <li class="banner__content-item">Пиротехника</li>
+                                        <li class="banner__content-item">Новогодние подарки</li>
+                                    </ul>
+                                    <button class="btn btn--banner">Перейти к каталогу</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="banners__list-item">
+                            <div class="banner">
+                                <div class="banner__content">
+                                    <h3 class="banner__content-title">Сезон подготовки к новогодним 
+                                        продажам открыт!</h3>
+                                    <ul class="banner__content-list">
+                                        <li class="banner__content-item">Искуственные елки</li>
+                                        <li class="banner__content-item">Гирлянды</li>
+                                        <li class="banner__content-item">Игрушки и украшения</li>
+                                        <li class="banner__content-item">Пиротехника</li>
+                                        <li class="banner__content-item">Новогодние подарки</li>
+                                    </ul>
+                                    <button class="btn btn--banner">Перейти к каталогу</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="banners__list-item">
+                            <div class="banner">
+                                <div class="banner__content">
+                                    <h3 class="banner__content-title">Сезон подготовки к новогодним 
+                                        продажам открыт!</h3>
+                                    <ul class="banner__content-list">
+                                        <li class="banner__content-item">Искуственные елки</li>
+                                        <li class="banner__content-item">Гирлянды</li>
+                                        <li class="banner__content-item">Игрушки и украшения</li>
+                                        <li class="banner__content-item">Пиротехника</li>
+                                        <li class="banner__content-item">Новогодние подарки</li>
+                                    </ul>
+                                    <button class="btn btn--banner">Перейти к каталогу</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="banners__list-item">
+                            <div class="banner">
+                                <div class="banner__content">
+                                    <h3 class="banner__content-title">Сезон подготовки к новогодним 
+                                        продажам открыт!</h3>
+                                    <ul class="banner__content-list">
+                                        <li class="banner__content-item">Искуственные елки</li>
+                                        <li class="banner__content-item">Гирлянды</li>
+                                        <li class="banner__content-item">Игрушки и украшения</li>
+                                        <li class="banner__content-item">Пиротехника</li>
+                                        <li class="banner__content-item">Новогодние подарки</li>
+                                    </ul>
+                                    <button class="btn btn--banner">Перейти к каталогу</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="banners__list-item">
+                            <div class="banner">
+                                <div class="banner__content">
+                                    <h3 class="banner__content-title">Сезон подготовки к новогодним 
+                                        продажам открыт!</h3>
+                                    <ul class="banner__content-list">
+                                        <li class="banner__content-item">Искуственные елки</li>
+                                        <li class="banner__content-item">Гирлянды</li>
+                                        <li class="banner__content-item">Игрушки и украшения</li>
+                                        <li class="banner__content-item">Пиротехника</li>
+                                        <li class="banner__content-item">Новогодние подарки</li>
+                                    </ul>
+                                    <button class="btn btn--banner">Перейти к каталогу</button>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <ul class="banners__nav">
+                        <div class="banners__nav-dot"></div>
+                        <div class="banners__nav-dot"></div>
+                        <div class="banners__nav-dot"></div>
+                        <div class="banners__nav-dot"></div>
+                        <div class="banners__nav-dot"></div>
+                        <div class="banners__nav-dot"></div>
+                        <div class="banners__nav-dot"></div>
+                    </ul>
                 </div>
             </div>
-        </header>
+        </div>
 
-        <main class="main">
-
-            <div class="news">
-                <div class="container"></div>
+        <div class="advantages">
+            <div class="container">
+                <div class="advantages__inner">
+                    <ul class="advantages__list">
+                        <li class="advantages__list-item">
+                            <div class="advantage__card advantage__card--marcetplaces">
+                                <div class="advantage__card-bg">
+                                    <img class="advantage__card-image" src="./assets/img/marketplaces.png" alt="marketplace logos">
+                                </div>
+                                <h5 class="advantage__card-title">Идеально для маркетплейсов</h5>
+                                <p class="advantage__card-description">Подробные описания, характеристики и фотографии товаров</p>
+                            </div>
+                        </li>
+                        <li class="advantages__list-item">
+                            <div class="advantage__card advantage__card--bank">
+                                <div class="advantage__card-bg">
+                                    <img class="advantage__card-image _left-position" src="./assets/img/bank.png" alt="marketplace logos">
+                                </div>
+                                <h5 class="advantage__card-title">Работаем официально</h5>
+                                <p class="advantage__card-description">Белая бухгалтерия: договора, закрывающие документы, ЭДО, оплата по счету или на сайте</p>
+                            </div>
+                        </li>
+                        <li class="advantages__list-item">
+                            <div class="advantage__card advantage__card--price">
+                                <div class="advantage__card-bg">
+                                    <img class="advantage__card-image _right-position" src="./assets/img/price-tag.png" alt="marketplace logos">
+                                </div>
+                                <h5 class="advantage__card-title">Цены от производителей без наценок</h5>
+                                <p class="advantage__card-description">Недорогие, но качественные товары  + Прогрессирующая система скидок и бонусов</p>
+                            </div>
+                        </li>
+                        <li class="advantages__list-item">
+                            <div class="advantage__card advantage__card--delivery">
+                                <div class="advantage__card-bg">
+                                    <img class="advantage__card-image _right-position" src="./assets/img/truck.png" alt="marketplace logos">
+                                </div>
+                                <h5 class="advantage__card-title">Быстрая обработка заказов.<br> 
+                                    Доставка в РФ и СНГ</h5>
+                                <p class="advantage__card-description">Отгружаем заказ до любой транспортной компании. Отправка в течение 1-3 дней с момента получения оплаты</p>
+                            </div>
+                        </li>
+                        <li class="advantages__list-item">
+                            <div class="advantage__card advantage__card--stock">
+                                <div class="advantage__card-bg">
+                                    <img class="advantage__card-image" src="./assets/img/stock.png" alt="marketplace logos">
+                                </div>
+                                <h5 class="advantage__card-title">Собственный склад и офис</h5>
+                                <p class="advantage__card-description">Будем рады угостить ваc чашечкой кофе в нашем офисе с Екатеринбурге</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </div>
+        </div>
 
-        </main>
+        <section class="catalog">
+            <div class="container">
+                <div class="catalog__inner">
+                    
+                    <h2 class="catalog__title">Каталог <span class="catalog__title--breadcrumb">/ Все товары</span></h2>
+                    <ul class="catalog__products-list">
+                        <button id="btnPrev" class="catalog__btn-prev">prev</button>
+                        <button id="btnNext" class="catalog__btn-next">next</button>
+                        <div class="product__card">
+                            <div class="product__card-picture">
+                                <img class="product__card-img" src="./assets/img/tree.jpg" alt="">
+                            </div>
+                            <div class="product__card-content">
+                                <p class="product__card-description">1Ель комбинированная “Уральская снежная” (ПВХ + РЕ)</p>
+                                <div class="product__card-modificators">
+                                    <div class="product__card-modificators--wrapper">
+                                        <p class="product__modificators-title">Высота:</p>
+                                        <ul class="product__modificators-list">
+                                            <span class="product__modificators-item _active">60 см</span>
+                                            <span class="product__modificators-item">90 см</span>
+                                            <span class="product__modificators-item">120 см</span>
+                                            <span class="product__modificators-item">150 см</span>
+                                            <span class="product__modificators-item">180 см</span>
+                                            <span class="product__modificators-item">210 см</span>
+                                            <span class="product__modificators-item">240 см</span>
+                                            <span class="product__modificators-item">270 см</span>
+                                            <span class="product__modificators-item">300 см</span>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="product__card-buyzone">
+                                    <span class="product__card-price">6310 p.</span>
+                                    <button class="btn btn--product__card">
+                                        <svg width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="#ffffff" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M7.49996 18.8333C7.9602 18.8333 8.33329 18.4602 8.33329 18C8.33329 17.5397 7.9602 17.1666 7.49996 17.1666C7.03972 17.1666 6.66663 17.5397 6.66663 18C6.66663 18.4602 7.03972 18.8333 7.49996 18.8333Z" stroke-width="1.43015" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M16.6666 18.8333C17.1269 18.8333 17.5 18.4602 17.5 18C17.5 17.5397 17.1269 17.1666 16.6666 17.1666C16.2064 17.1666 15.8333 17.5397 15.8333 18C15.8333 18.4602 16.2064 18.8333 16.6666 18.8333Z" fill="#282828" stroke-width="1.43015" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M0.833313 1.33331H4.16665L6.39998 12.4916C6.47618 12.8753 6.6849 13.2199 6.9896 13.4652C7.2943 13.7105 7.67556 13.8408 8.06665 13.8333H16.1666C16.5577 13.8408 16.939 13.7105 17.2437 13.4652C17.5484 13.2199 17.7571 12.8753 17.8333 12.4916L19.1666 5.49998H4.99998" stroke-width="1.43015" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                            
+                                        <span class="product__card-btn--text">В корзину</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product__card">
+                            <div class="product__card-picture">
+                                <img class="product__card-img" src="./assets/img/tree.jpg" alt="">
+                            </div>
+                            <div class="product__card-content">
+                                <p class="product__card-description">2Ель комбинированная “Уральская снежная” (ПВХ + РЕ)</p>
+                                <div class="product__card-modificators">
+                                    <div class="product__card-modificators--wrapper">
+                                        <p class="product__modificators-title">Высота:</p>
+                                        <ul class="product__modificators-list">
+                                            <span class="product__modificators-item _active">60 см</span>
+                                            <span class="product__modificators-item">90 см</span>
+                                            <span class="product__modificators-item">120 см</span>
+                                            <span class="product__modificators-item">150 см</span>
+                                            <span class="product__modificators-item">180 см</span>
+                                            <span class="product__modificators-item">210 см</span>
+                                            <span class="product__modificators-item">240 см</span>
+                                            <span class="product__modificators-item">270 см</span>
+                                            <span class="product__modificators-item">300 см</span>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="product__card-buyzone">
+                                    <span class="product__card-price">6310 p.</span>
+                                    <button class="btn btn--product__card">
+                                        <svg width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="#ffffff" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M7.49996 18.8333C7.9602 18.8333 8.33329 18.4602 8.33329 18C8.33329 17.5397 7.9602 17.1666 7.49996 17.1666C7.03972 17.1666 6.66663 17.5397 6.66663 18C6.66663 18.4602 7.03972 18.8333 7.49996 18.8333Z" stroke-width="1.43015" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M16.6666 18.8333C17.1269 18.8333 17.5 18.4602 17.5 18C17.5 17.5397 17.1269 17.1666 16.6666 17.1666C16.2064 17.1666 15.8333 17.5397 15.8333 18C15.8333 18.4602 16.2064 18.8333 16.6666 18.8333Z" fill="#282828" stroke-width="1.43015" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M0.833313 1.33331H4.16665L6.39998 12.4916C6.47618 12.8753 6.6849 13.2199 6.9896 13.4652C7.2943 13.7105 7.67556 13.8408 8.06665 13.8333H16.1666C16.5577 13.8408 16.939 13.7105 17.2437 13.4652C17.5484 13.2199 17.7571 12.8753 17.8333 12.4916L19.1666 5.49998H4.99998" stroke-width="1.43015" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                            
+                                        <span class="product__card-btn--text">В корзину</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product__card">
+                            <div class="product__card-picture">
+                                <img class="product__card-img" src="./assets/img/tree.jpg" alt="">
+                            </div>
+                            <div class="product__card-content">
+                                <p class="product__card-description">3Ель комбинированная “Уральская снежная” (ПВХ + РЕ)</p>
+                                <div class="product__card-modificators">
+                                    <div class="product__card-modificators--wrapper">
+                                        <p class="product__modificators-title">Высота:</p>
+                                        <ul class="product__modificators-list">
+                                            <span class="product__modificators-item _active">60 см</span>
+                                            <span class="product__modificators-item">90 см</span>
+                                            <span class="product__modificators-item">120 см</span>
+                                            <span class="product__modificators-item">150 см</span>
+                                            <span class="product__modificators-item">180 см</span>
+                                            <span class="product__modificators-item">210 см</span>
+                                            <span class="product__modificators-item">240 см</span>
+                                            <span class="product__modificators-item">270 см</span>
+                                            <span class="product__modificators-item">300 см</span>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="product__card-buyzone">
+                                    <span class="product__card-price">6310 p.</span>
+                                    <button class="btn btn--product__card">
+                                        <svg width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="#ffffff" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M7.49996 18.8333C7.9602 18.8333 8.33329 18.4602 8.33329 18C8.33329 17.5397 7.9602 17.1666 7.49996 17.1666C7.03972 17.1666 6.66663 17.5397 6.66663 18C6.66663 18.4602 7.03972 18.8333 7.49996 18.8333Z" stroke-width="1.43015" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M16.6666 18.8333C17.1269 18.8333 17.5 18.4602 17.5 18C17.5 17.5397 17.1269 17.1666 16.6666 17.1666C16.2064 17.1666 15.8333 17.5397 15.8333 18C15.8333 18.4602 16.2064 18.8333 16.6666 18.8333Z" fill="#282828" stroke-width="1.43015" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M0.833313 1.33331H4.16665L6.39998 12.4916C6.47618 12.8753 6.6849 13.2199 6.9896 13.4652C7.2943 13.7105 7.67556 13.8408 8.06665 13.8333H16.1666C16.5577 13.8408 16.939 13.7105 17.2437 13.4652C17.5484 13.2199 17.7571 12.8753 17.8333 12.4916L19.1666 5.49998H4.99998" stroke-width="1.43015" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                            
+                                        <span class="product__card-btn--text">В корзину</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product__card">
+                            <div class="product__card-picture">
+                                <img class="product__card-img" src="./assets/img/tree.jpg" alt="">
+                            </div>
+                            <div class="product__card-content">
+                                <p class="product__card-description">4Ель комбинированная “Уральская снежная” (ПВХ + РЕ)</p>
+                                <div class="product__card-modificators">
+                                    <div class="product__card-modificators--wrapper">
+                                        <p class="product__modificators-title">Высота:</p>
+                                        <ul class="product__modificators-list">
+                                            <span class="product__modificators-item _active">60 см</span>
+                                            <span class="product__modificators-item">90 см</span>
+                                            <span class="product__modificators-item">120 см</span>
+                                            <span class="product__modificators-item">150 см</span>
+                                            <span class="product__modificators-item">180 см</span>
+                                            <span class="product__modificators-item">210 см</span>
+                                            <span class="product__modificators-item">240 см</span>
+                                            <span class="product__modificators-item">270 см</span>
+                                            <span class="product__modificators-item">300 см</span>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="product__card-buyzone">
+                                    <span class="product__card-price">6310 p.</span>
+                                    <button class="btn btn--product__card">
+                                        <svg width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="#ffffff" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M7.49996 18.8333C7.9602 18.8333 8.33329 18.4602 8.33329 18C8.33329 17.5397 7.9602 17.1666 7.49996 17.1666C7.03972 17.1666 6.66663 17.5397 6.66663 18C6.66663 18.4602 7.03972 18.8333 7.49996 18.8333Z" stroke-width="1.43015" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M16.6666 18.8333C17.1269 18.8333 17.5 18.4602 17.5 18C17.5 17.5397 17.1269 17.1666 16.6666 17.1666C16.2064 17.1666 15.8333 17.5397 15.8333 18C15.8333 18.4602 16.2064 18.8333 16.6666 18.8333Z" fill="#282828" stroke-width="1.43015" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M0.833313 1.33331H4.16665L6.39998 12.4916C6.47618 12.8753 6.6849 13.2199 6.9896 13.4652C7.2943 13.7105 7.67556 13.8408 8.06665 13.8333H16.1666C16.5577 13.8408 16.939 13.7105 17.2437 13.4652C17.5484 13.2199 17.7571 12.8753 17.8333 12.4916L19.1666 5.49998H4.99998" stroke-width="1.43015" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                            
+                                        <span class="product__card-btn--text">В корзину</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product__card">
+                            <div class="product__card-picture">
+                                <img class="product__card-img" src="./assets/img/tree.jpg" alt="">
+                            </div>
+                            <div class="product__card-content">
+                                <p class="product__card-description">5Ель комбинированная “Уральская снежная” (ПВХ + РЕ)</p>
+                                <div class="product__card-modificators">
+                                    <div class="product__card-modificators--wrapper">
+                                        <p class="product__modificators-title">Высота:</p>
+                                        <ul class="product__modificators-list">
+                                            <span class="product__modificators-item _active">60 см</span>
+                                            <span class="product__modificators-item">90 см</span>
+                                            <span class="product__modificators-item">120 см</span>
+                                            <span class="product__modificators-item">150 см</span>
+                                            <span class="product__modificators-item">180 см</span>
+                                            <span class="product__modificators-item">210 см</span>
+                                            <span class="product__modificators-item">240 см</span>
+                                            <span class="product__modificators-item">270 см</span>
+                                            <span class="product__modificators-item">300 см</span>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="product__card-buyzone">
+                                    <span class="product__card-price">6310 p.</span>
+                                    <button class="btn btn--product__card">
+                                        <svg width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="#ffffff" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M7.49996 18.8333C7.9602 18.8333 8.33329 18.4602 8.33329 18C8.33329 17.5397 7.9602 17.1666 7.49996 17.1666C7.03972 17.1666 6.66663 17.5397 6.66663 18C6.66663 18.4602 7.03972 18.8333 7.49996 18.8333Z" stroke-width="1.43015" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M16.6666 18.8333C17.1269 18.8333 17.5 18.4602 17.5 18C17.5 17.5397 17.1269 17.1666 16.6666 17.1666C16.2064 17.1666 15.8333 17.5397 15.8333 18C15.8333 18.4602 16.2064 18.8333 16.6666 18.8333Z" fill="#282828" stroke-width="1.43015" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M0.833313 1.33331H4.16665L6.39998 12.4916C6.47618 12.8753 6.6849 13.2199 6.9896 13.4652C7.2943 13.7105 7.67556 13.8408 8.06665 13.8333H16.1666C16.5577 13.8408 16.939 13.7105 17.2437 13.4652C17.5484 13.2199 17.7571 12.8753 17.8333 12.4916L19.1666 5.49998H4.99998" stroke-width="1.43015" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                            
+                                        <span class="product__card-btn--text">В корзину</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product__card">
+                            <div class="product__card-picture">
+                                <img class="product__card-img" src="./assets/img/tree.jpg" alt="">
+                            </div>
+                            <div class="product__card-content">
+                                <p class="product__card-description">6Ель комбинированная “Уральская снежная” (ПВХ + РЕ)</p>
+                                <div class="product__card-modificators">
+                                    <div class="product__card-modificators--wrapper">
+                                        <p class="product__modificators-title">Высота:</p>
+                                        <ul class="product__modificators-list">
+                                            <span class="product__modificators-item _active">60 см</span>
+                                            <span class="product__modificators-item">90 см</span>
+                                            <span class="product__modificators-item">120 см</span>
+                                            <span class="product__modificators-item">150 см</span>
+                                            <span class="product__modificators-item">180 см</span>
+                                            <span class="product__modificators-item">210 см</span>
+                                            <span class="product__modificators-item">240 см</span>
+                                            <span class="product__modificators-item">270 см</span>
+                                            <span class="product__modificators-item">300 см</span>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="product__card-buyzone">
+                                    <span class="product__card-price">6310 p.</span>
+                                    <button class="btn btn--product__card">
+                                        <svg width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="#ffffff" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M7.49996 18.8333C7.9602 18.8333 8.33329 18.4602 8.33329 18C8.33329 17.5397 7.9602 17.1666 7.49996 17.1666C7.03972 17.1666 6.66663 17.5397 6.66663 18C6.66663 18.4602 7.03972 18.8333 7.49996 18.8333Z" stroke-width="1.43015" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M16.6666 18.8333C17.1269 18.8333 17.5 18.4602 17.5 18C17.5 17.5397 17.1269 17.1666 16.6666 17.1666C16.2064 17.1666 15.8333 17.5397 15.8333 18C15.8333 18.4602 16.2064 18.8333 16.6666 18.8333Z" fill="#282828" stroke-width="1.43015" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M0.833313 1.33331H4.16665L6.39998 12.4916C6.47618 12.8753 6.6849 13.2199 6.9896 13.4652C7.2943 13.7105 7.67556 13.8408 8.06665 13.8333H16.1666C16.5577 13.8408 16.939 13.7105 17.2437 13.4652C17.5484 13.2199 17.7571 12.8753 17.8333 12.4916L19.1666 5.49998H4.99998" stroke-width="1.43015" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                            
+                                        <span class="product__card-btn--text">В корзину</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product__card">
+                            <div class="product__card-picture">
+                                <img class="product__card-img" src="./assets/img/tree.jpg" alt="">
+                            </div>
+                            <div class="product__card-content">
+                                <p class="product__card-description">7Ель комбинированная “Уральская снежная” (ПВХ + РЕ)</p>
+                                <div class="product__card-modificators">
+                                    <div class="product__card-modificators--wrapper">
+                                        <p class="product__modificators-title">Высота:</p>
+                                        <ul class="product__modificators-list">
+                                            <span class="product__modificators-item _active">60 см</span>
+                                            <span class="product__modificators-item">90 см</span>
+                                            <span class="product__modificators-item">120 см</span>
+                                            <span class="product__modificators-item">150 см</span>
+                                            <span class="product__modificators-item">180 см</span>
+                                            <span class="product__modificators-item">210 см</span>
+                                            <span class="product__modificators-item">240 см</span>
+                                            <span class="product__modificators-item">270 см</span>
+                                            <span class="product__modificators-item">300 см</span>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="product__card-buyzone">
+                                    <span class="product__card-price">6310 p.</span>
+                                    <button class="btn btn--product__card">
+                                        <svg width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="#ffffff" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M7.49996 18.8333C7.9602 18.8333 8.33329 18.4602 8.33329 18C8.33329 17.5397 7.9602 17.1666 7.49996 17.1666C7.03972 17.1666 6.66663 17.5397 6.66663 18C6.66663 18.4602 7.03972 18.8333 7.49996 18.8333Z" stroke-width="1.43015" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M16.6666 18.8333C17.1269 18.8333 17.5 18.4602 17.5 18C17.5 17.5397 17.1269 17.1666 16.6666 17.1666C16.2064 17.1666 15.8333 17.5397 15.8333 18C15.8333 18.4602 16.2064 18.8333 16.6666 18.8333Z" fill="#282828" stroke-width="1.43015" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M0.833313 1.33331H4.16665L6.39998 12.4916C6.47618 12.8753 6.6849 13.2199 6.9896 13.4652C7.2943 13.7105 7.67556 13.8408 8.06665 13.8333H16.1666C16.5577 13.8408 16.939 13.7105 17.2437 13.4652C17.5484 13.2199 17.7571 12.8753 17.8333 12.4916L19.1666 5.49998H4.99998" stroke-width="1.43015" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                            
+                                        <span class="product__card-btn--text">В корзину</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </section>
 
-        <footer class="footer">
+        <section class="about">
 
-        </footer>
-    </div>
+        </section>
 
+    </main>
+
+    <footer class="footer">
+
+    </footer>
     <script src="./index.js"></script>
+    
 </body>
 </html>

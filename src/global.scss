@@ -1,6 +1,11 @@
-@import "./variables.scss";
-@import "./styles/header.scss";
-@import "./styles/btn.scss";
+@import "./variables";
+@import "./styles/header";
+@import "./styles/btn";
+@import "./styles/banners";
+@import "./styles/advantages";
+@import "./styles/catalog";
+@import "./styles/product";
+@import "./styles/about";
 
 *,
 *::after,
@@ -23,6 +28,7 @@ html {
 body {
   letter-spacing: 0.1px;
   color: $black-text;
+  padding-bottom: 100px;
 }
 
 .main {
